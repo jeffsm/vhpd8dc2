@@ -1,0 +1,6 @@
+name: vhpd8dc2
+recipe: pantheon
+config:
+  framework: drupal8
+  site: vhpd8dc2
+  id: 63ed8179-e134-4757-9ef1-3998323c3a3f
