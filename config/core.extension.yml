@@ -42,7 +42,8 @@ module:
   user: 0
   views_ui: 0
   views: 10
-#  standard: 1000
+  commerce_base: 1000
+  # standard: 1000
 theme:
   stable: 0
   classy: 0
