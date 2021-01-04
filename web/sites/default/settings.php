@@ -5,6 +5,8 @@
  */
 $settings['container_yamls'][] = __DIR__ . '/services.yml';
 
+$settings['install_profile'] = 'commerce_base';
+
 /**
  * Include the Pantheon-specific settings file.
  *
