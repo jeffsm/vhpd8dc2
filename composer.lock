@@ -1345,16 +1345,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "8.9.11",
+            "version": "8.9.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "8fc1d510b8fcff90e2f3a7c96a893ba16bbdc62d"
+                "reference": "ec7ac2bd2b7fa7f06df654c637b7f29f019d356f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/8fc1d510b8fcff90e2f3a7c96a893ba16bbdc62d",
-                "reference": "8fc1d510b8fcff90e2f3a7c96a893ba16bbdc62d",
+                "url": "https://api.github.com/repos/drupal/core/zipball/ec7ac2bd2b7fa7f06df654c637b7f29f019d356f",
+                "reference": "ec7ac2bd2b7fa7f06df654c637b7f29f019d356f",
                 "shasum": ""
             },
             "require": {
@@ -1572,11 +1572,11 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2020-12-03T20:57:10+00:00"
+            "time": "2021-01-06T23:44:11+00:00"
         },
         {
             "name": "drupal/core-composer-scaffold",
-            "version": "8.9.11",
+            "version": "8.9.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-composer-scaffold.git",
@@ -1623,16 +1623,16 @@
         },
         {
             "name": "drupal/core-recommended",
-            "version": "8.9.11",
+            "version": "8.9.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-recommended.git",
-                "reference": "c8e6bfedd8fcec50ddc9e96e0f5f3d0779e3accb"
+                "reference": "06d3680bf56fda259679f538ef90da44770f92a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/c8e6bfedd8fcec50ddc9e96e0f5f3d0779e3accb",
-                "reference": "c8e6bfedd8fcec50ddc9e96e0f5f3d0779e3accb",
+                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/06d3680bf56fda259679f538ef90da44770f92a8",
+                "reference": "06d3680bf56fda259679f538ef90da44770f92a8",
                 "shasum": ""
             },
             "require": {
@@ -1644,7 +1644,7 @@
                 "doctrine/common": "v2.7.3",
                 "doctrine/inflector": "v1.2.0",
                 "doctrine/lexer": "1.0.2",
-                "drupal/core": "8.9.11",
+                "drupal/core": "8.9.12",
                 "easyrdf/easyrdf": "0.9.1",
                 "egulias/email-validator": "2.1.17",
                 "guzzlehttp/guzzle": "6.5.4",
@@ -1701,7 +1701,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Locked core dependencies; require this project INSTEAD OF drupal/core.",
-            "time": "2020-12-03T20:57:10+00:00"
+            "time": "2021-01-06T23:44:11+00:00"
         },
         {
             "name": "drupal/drupal-driver",
@@ -2190,20 +2190,20 @@
         },
         {
             "name": "drupal/swiftmailer",
-            "version": "2.0.0-beta1",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/swiftmailer.git",
-                "reference": "8.x-2.0-beta1"
+                "reference": "8.x-2.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/swiftmailer-8.x-2.0-beta1.zip",
-                "reference": "8.x-2.0-beta1",
-                "shasum": "6df4816d0d57a85cfff0860960da64c5ff77680f"
+                "url": "https://ftp.drupal.org/files/projects/swiftmailer-8.x-2.0.zip",
+                "reference": "8.x-2.0",
+                "shasum": "9a4d9f511885246262224a81ec736c9c6aa2b466"
             },
             "require": {
-                "drupal/core": "^8 || ^9",
+                "drupal/core": "^8.9.11 || ^9.0.10",
                 "drupal/mailsystem": "^4.1.0",
                 "egulias/email-validator": "^2.0",
                 "html2text/html2text": "^4.0.1",
@@ -2214,17 +2214,17 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-2.0-beta1",
-                    "datestamp": "1596203348",
+                    "version": "8.x-2.0",
+                    "datestamp": "1609585507",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Beta releases are not covered by Drupal security advisories."
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0+"
+                "GPL-2.0-or-later"
             ],
             "authors": [
                 {
@@ -3334,16 +3334,16 @@
         },
         {
             "name": "pantheon-systems/drupal-integrations",
-            "version": "8.0.3",
+            "version": "8.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pantheon-systems/drupal-integrations.git",
-                "reference": "0d352e1167a5b3575d886128c8f1fa796603ed9b"
+                "reference": "ef88532ebffb23d7b9081a84e2818cb872d5316e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pantheon-systems/drupal-integrations/zipball/0d352e1167a5b3575d886128c8f1fa796603ed9b",
-                "reference": "0d352e1167a5b3575d886128c8f1fa796603ed9b",
+                "url": "https://api.github.com/repos/pantheon-systems/drupal-integrations/zipball/ef88532ebffb23d7b9081a84e2818cb872d5316e",
+                "reference": "ef88532ebffb23d7b9081a84e2818cb872d5316e",
                 "shasum": ""
             },
             "conflict": {
@@ -3369,7 +3369,7 @@
                 "MIT"
             ],
             "description": "Add this project to any Drupal distribution based on drupal/core-composer-scaffold to enable it for use on Pantheon.",
-            "time": "2020-03-11T18:20:13+00:00"
+            "time": "2020-12-10T20:06:25+00:00"
         },
         {
             "name": "pantheon-systems/quicksilver-pushback",
@@ -3968,24 +3968,24 @@
         },
         {
             "name": "rvtraveller/qs-composer-installer",
-            "version": "1.1",
+            "version": "1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rvtraveller/qs-composer-installer.git",
-                "reference": "20d6f4397e4b77599646767ad030092a60f5f92a"
+                "reference": "3d25d4a4348adc8b2276f9cb23eb53393d85c01e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rvtraveller/qs-composer-installer/zipball/20d6f4397e4b77599646767ad030092a60f5f92a",
-                "reference": "20d6f4397e4b77599646767ad030092a60f5f92a",
+                "url": "https://api.github.com/repos/rvtraveller/qs-composer-installer/zipball/3d25d4a4348adc8b2276f9cb23eb53393d85c01e",
+                "reference": "3d25d4a4348adc8b2276f9cb23eb53393d85c01e",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "~1.0",
-                "composer/installers": "~1.0"
+                "composer-plugin-api": "^1.0 || ^2.0",
+                "composer/installers": "^1.9"
             },
             "require-dev": {
-                "composer/composer": "~1.0@dev"
+                "composer/composer": "1.0.* || 2.0.*@dev"
             },
             "type": "composer-plugin",
             "extra": {
@@ -4002,7 +4002,7 @@
             ],
             "description": "Install Quicksilver modules for Pantheon into custom locations.",
             "homepage": "https://github.com/rvtraveller/qs-composer-installer",
-            "time": "2017-01-27T20:40:31+00:00"
+            "time": "2021-01-04T22:27:18+00:00"
         },
         {
             "name": "stack/builder",
@@ -5362,16 +5362,16 @@
         },
         {
             "name": "symfony/polyfill-php80",
-            "version": "v1.20.0",
+            "version": "v1.22.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php80.git",
-                "reference": "e70aa8b064c5b72d3df2abd5ab1e90464ad009de"
+                "reference": "dc3063ba22c2a1fd2f45ed856374d79114998f91"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/e70aa8b064c5b72d3df2abd5ab1e90464ad009de",
-                "reference": "e70aa8b064c5b72d3df2abd5ab1e90464ad009de",
+                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/dc3063ba22c2a1fd2f45ed856374d79114998f91",
+                "reference": "dc3063ba22c2a1fd2f45ed856374d79114998f91",
                 "shasum": ""
             },
             "require": {
@@ -5380,7 +5380,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.20-dev"
+                    "dev-main": "1.22-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -5438,7 +5438,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-23T14:02:19+00:00"
+            "time": "2021-01-07T16:49:33+00:00"
         },
         {
             "name": "symfony/polyfill-util",
